@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var wkWebView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(NormalFamily().getName() as [String])
     }
 }
 

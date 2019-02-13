@@ -63,7 +63,6 @@ class NumberFamily: Familiable {
 }
 
 // Override Associated Type
-
 struct NormalFamily<T: ExpressibleByStringLiteral>: Familiable {
     func getName() -> [T] {
         return ["a", "b", "c"]
